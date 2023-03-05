@@ -1,0 +1,45 @@
+/* основные стили для меню */
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+/* выпадающее меню */
+.dropdown-menu {
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    color: #212529;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+}
