@@ -1,3 +1,7 @@
+body {
+background-image: url("../img/backBuld.jpg");
+background-size: cover;
+}
 /* основные стили для меню */
 .navbar-nav {
     margin: 0;
